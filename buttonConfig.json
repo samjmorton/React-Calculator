@@ -1,0 +1,123 @@
+[
+  {
+    "row": "1",
+    "buttons": [
+      {
+        "value": "C",
+				"onPress": "clear",
+				"backgroundColor": "gray"
+			},
+			{
+        "value": "AC",
+				"onPress": "clear",
+				"backgroundColor": "gray"
+			},
+
+			{
+        "value": "/",
+				"onPress": "setOperator",
+				"backgroundColor": "orange"
+			}
+    ]
+	},
+	{
+    "row": "2",
+    "buttons": [
+      {
+        "value": "7",
+				"onPress": "setInput",
+				"backgroundColor": "darkgray"
+			},
+			{
+        "value": "8",
+				"onPress": "setInput",
+				"backgroundColor": "darkgray"
+			},
+			{
+        "value": "9",
+				"onPress": "setInput",
+				"backgroundColor": "darkgray"
+			},
+			{
+        "value": "x",
+				"onPress": "setOperator",
+				"backgroundColor": "orange"
+			}
+    ]
+	},
+	{
+    "row": "3",
+    "buttons": [
+      {
+        "value": "4",
+				"onPress": "setInput",
+				"backgroundColor": "darkgray"
+			},
+			{
+        "value": "5",
+				"onPress": "setInput",
+				"backgroundColor": "darkgray"
+			},
+			{
+        "value": "6",
+				"onPress": "setInput",
+				"backgroundColor": "darkgray"
+			},
+			{
+        "value": "-",
+				"onPress": "setOperator",
+				"backgroundColor": "orange"
+			}
+    ]
+	},
+	{
+    "row": "4",
+    "buttons": [
+      {
+        "value": "1",
+				"onPress": "setInput",
+				"backgroundColor": "darkgray"
+			},
+			{
+        "value": "2",
+				"onPress": "setInput",
+				"backgroundColor": "darkgray"
+			},
+			{
+        "value": "3",
+				"onPress": "setInput",
+				"backgroundColor": "darkgray"
+			},
+			{
+        "value": "+",
+				"onPress": "setOperator",
+				"backgroundColor": "orange"
+			}
+    ]
+	},
+	{
+    "row": "5",
+    "buttons": [
+      {
+        "value": "0",
+				"onPress": "setInput",
+				"backgroundColor": "darkgray"
+			},
+			{
+        "value": "",
+				"onPress": "clear",
+				"backgroundColor": "darkgray"
+			},
+			{
+        "value": ".",
+				"onPress": "setOperator",
+				"backgroundColor": "darkgray"
+			},
+			{
+        "value": "=",
+				"onPress": "setResult",
+				"backgroundColor": "orange"
+			}
+    ]
+  }
+]
